@@ -26,5 +26,5 @@ Search any city to get real-time weather details such as temperature, condition,
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   https://github.com/manjityadav/weather-app.git
    cd weather-app
