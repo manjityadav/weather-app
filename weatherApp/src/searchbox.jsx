@@ -14,7 +14,7 @@ export default function Search({updateinfo}){
     let getdata= async ()=>{
         try{
         let API="98089f5c250f3d6321f78a907af9ada4";
-        let geoapi=`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${API }`;
+        let geoapi=`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${API }`;
         let geodata=await fetch(geoapi);
         let geodata2=await geodata.json();
         let lat=geodata2[0].lat;
